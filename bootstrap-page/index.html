@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <title>Titel</title>
+  </head>
+  <body>
+      
+    <!-- Start: Navigations Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light border-bottom py-4">
+        <div class="container">
+            <span class="navbar-brand h1">semper quis</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-normal">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">adipiscing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heading2">tristique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heading3">scelerisque</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heading4">felis</a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </nav>
+    <!-- End: Navigations Bar -->
+
+    <!-- Start: Header -->
+    <div class="container-fluid header">
+        <div class="row d-flex align-items-center justify-content-center h-100">
+            <div class="col text-center text-white">
+                <h1 class="display-1 fw-normal text-capitalize">semper quis</h1>
+                <p class="fs-2">viverra suspendisse potenti</p>
+            </div>
+        </div>
+    </div>
+    <!-- End: Header -->
+
+    <div class="container-fluid">
+
+
+    </div>
+      
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+        $(function () {
+            $(window).on('scroll', function () {
+                if ( $(window).scrollTop() > 10 ) {
+                    $('.navbar').addClass('active');
+                } else {
+                    $('.navbar').removeClass('active');
+                }
+            });
+        });
+    </script>
+
+  </body>
+</html>
